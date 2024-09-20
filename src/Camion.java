@@ -17,12 +17,12 @@ public class Camion extends Vehicule {
 
     @Override
     public void afficherType() {
-        System.out.println("Type de véhicule : Camion");
+        System.out.println("type de vehicule : camion");
     }
 
     @Override
     public String obtenirDescription() {
-        return "Camion [Marque=" + marque + ", Modèle=" + modele + ", Année=" + annee +
-                ", Capacité Max=" + capaciteMax + " tonnes]";
+        return "camion [marque=" + marque + ", modele=" + modele + ", Annee=" + annee +
+                ", Capacite max=" + capaciteMax + " tonnes]";
     }
 }
